@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "desc": "Cell Phone",
+      "price": 2534.99,
+      "brand": "Samsumg",
+      "from": "South Korea"
+    },
+    {
+      "id": 2,
+      "desc": "TV",
+      "price": 5500,
+      "brand": "LG",
+      "from": "EUA"
+    },
+    {
+      "id": 3,
+      "desc": "Microwave",
+      "price": 1500,
+      "brand": "Philco",
+      "from": "EUA"
+    }
+  ]
+}
