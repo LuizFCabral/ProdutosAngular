@@ -10,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class ProdutosComponent implements OnInit{
   products: Product[] = [];
 
+
+  //Call the API
   constructor(private productService: ProductsService) {}
   ngOnInit(): void {
     this.getProduct();
@@ -27,4 +29,12 @@ export class ProdutosComponent implements OnInit{
       }
     });
   }
+  //
+
+  show: boolean = false;
+
+  showSpecifications(id: number){
+    this.show = !this.show;
+  }
+
 }

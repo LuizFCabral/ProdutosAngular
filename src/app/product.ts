@@ -3,5 +3,11 @@ export interface Product{
   desc: string,
   price: number,
   brand: string,
-  from: string
+  specifications: [
+    {
+      color: string,
+      weight: number,
+      voltage: number,
+    }
+  ]
 }
