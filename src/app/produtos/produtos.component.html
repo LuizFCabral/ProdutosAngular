@@ -15,22 +15,7 @@
         <td>{{ product.desc }}</td>
         <td>{{ product.price.toFixed(2) }}</td>
         <td>{{ product.brand }}</td>
-        <td><button class="btn btn-primary" (click)="showSpecifications(1)">Show stats</button></td>
+        <td>{{ product.from }}</td>
       </tr>
     </tbody>
   </table>
-<table>
-  <thead>
-    <tr>
-      <th scope="col">Cor</th>
-      <th scope="col">Peso</th>
-      <th scope="col">Voltagem</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let items of products[0].specifications">
-      <th scope="row">{{items.color}}</th>
-    </tr>
-  </tbody>
-</table>
-

@@ -5,33 +5,21 @@
       "desc": "Cell Phone",
       "price": 2534.99,
       "brand": "Samsumg",
-      "specifications":{
-        "color": "white",
-        "weight": 180,
-        "voltage": 5
-      }
+      "from": "South Korea"
     },
     {
       "id": 2,
       "desc": "TV",
       "price": 5500,
       "brand": "LG",
-      "specifications":{
-        "color": "black",
-        "weight": 10000,
-        "voltage": 120
-      }
+      "from": "EUA"
     },
     {
       "id": 3,
       "desc": "Microwave",
       "price": 1500,
       "brand": "Philco",
-      "specifications":{
-        "color": "gray",
-        "weight": 11000,
-        "voltage": 120
-      }
+      "from": "EUA"
     }
   ]
 }
